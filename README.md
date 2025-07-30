@@ -4,7 +4,6 @@ This repository contains my web development projects, each organized into its ow
 
 ## Projects
 - **Expense Tracker** → A web application to track expenses by year, month, and category.  
-- (You can add more projects later...)
 
 
 ### How to Explore
