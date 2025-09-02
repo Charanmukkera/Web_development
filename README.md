@@ -16,9 +16,9 @@ Built with a clean UI/UX to provide quick insights into your financial activitie
 ---
 
 ## 🛠 Tech Stack
-- **Frontend:** HTML, CSS, JavaScript 
-- **Styling:** Tailwind CSS / Custom CSS   
-- **Storage:** LocalStorage (default), backend optional  
+- Frontend: HTML, CSS, JavaScript 
+- Styling: CSS / Custom CSS   
+- Storage: LocalStorage (default), backend optional  
 
 ---
 
