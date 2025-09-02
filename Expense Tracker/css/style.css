@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    color: #333;
+    background: linear-gradient(135deg, #f8d7e3, #d0e8f2, #fef6d9);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #222;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+table {
+    width: 90%;
+    margin: 15px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #b52a37;
+}
+
+.total-row td {
+    background: #d1ecf1;
+    font-weight: bold;
+}
+
+.year-block {
+    margin: 20px auto;
+    width: 95%;
+    text-align: center;
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
